@@ -11,6 +11,10 @@ body {
 
 /* ---------------------------------------------------- */
 
+img {        /* jelikož mají všechny obrázky ve všech rolzišeních stejné vlastnosti, stačí je vybrat selektorem img a nastavit jim ten border-radius :) */
+	border-radius: 50%;
+}
+
 .Nadpis{ 
 	margin:0;
 	text-align: center;
@@ -41,12 +45,7 @@ body {
 	text-align: center;	
 		
 }
-.Foto-Jarmila,
-.Foto-Klotylda, 
-.Foto-Lucie, 
-.Foto-Emilie {
-	border-radius: 50%;
-}
+
 }
 	
 
